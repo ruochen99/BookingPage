@@ -1,0 +1,59 @@
+.form-container {
+  position: absolute;
+  top: 60px;
+  left: 5px;
+  padding: 30px;
+}
+
+.shortcontainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.short {
+  font-size: 16px;
+  height: 35px;
+  width: 155px;
+  margin: 10px 25px 14px 25px;
+}
+
+.long {
+  font-size: 16px;
+  height: 35px;
+  width: 365px;
+  margin: 10px 25px 14px 25px;
+}
+
+
+Select {
+  background-color: #FFFFFF;
+  height: 30px;
+  width: 370px;
+  margin: 10px 25px 10px 40px;
+  padding: 20px;
+}
+
+
+.selectcontainer {
+  position: absolute;
+  left: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+
+Button {
+  position: absolute;
+  right: 70px;
+  bottom: -130px;
+  width: 370px;
+  height: 40px;
+  background-color: #60829E;
+  font-size: 16px;
+  color: #F0ECEB;
+}
+
+Button:hover {
+  cursor: pointer;
+}
